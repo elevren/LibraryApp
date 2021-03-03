@@ -1,0 +1,113 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6859850200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the librarian logged in the application",
+            "match": {
+              "location": "com.library.step_definitions.UserGroupDropdownStepDefs.the_librarian_logged_in_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T23:40:35.080Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User Management Page Smoke Test",
+        "description": "",
+        "id": ";user-management-page-smoke-test",
+        "after": [
+          {
+            "result": {
+              "duration": 696281500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3187636900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the librarian clicked on Users on top the page",
+            "match": {
+              "location": "com.library.step_definitions.UserGroupDropdownStepDefs.the_librarian_clicked_on_on_top_the_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3014696600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the librarian navigates to \"User Management\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User Management\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.library.step_definitions.UserGroupDropdownStepDefs.the_librarian_navigates_to_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@PROF-248"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UserManagementPageSmokeTest.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
